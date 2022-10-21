@@ -9,7 +9,7 @@ public class HelloController {
     @GetMapping("/")
     public String index() {
         System.out.println("Moj message z Kontrolera /");
-        return "Greetings from Spring Boot!";
+        return "Pozdrowienia z Controller /!";
     }
 
 }
